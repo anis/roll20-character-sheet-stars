@@ -2,24 +2,24 @@
  COLORS
  =====================
  - Text: #000000
- - Title: #596971
+ - Title: #2c3e45
  - Subtitle: #8998a0
- - Table head: #d8ccb7
+ - Table head: #2c3e45
  - Table body: #f1ebe3
- - Border: #c0ac8a
+ - Border: #000000
  - Quote background: #e2e6e9
  - Quote text: #68747c
 */
 
 /* FONTS */
-@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
 
 *,
 input,
 select,
 textarea,
 p {
-    font-family: 'Cormorant Garamond';
+    font-family: 'Oswald';
     color: #000000;
 }
 
@@ -44,12 +44,12 @@ table {
 input,
 textarea,
 select {
-    border-color: #c0ac8a;
+    border-color: #000000;
 }
 
 input {
     border: none;
-    border-bottom: 2px dotted #c0ac8a;
+    border-bottom: 2px dotted #000000;
 }
 
 label {
@@ -57,7 +57,7 @@ label {
 }
 
 h1 {
-    color: #596971;
+    color: #2c3e45;
     font-size: 1.5rem;
     text-transform: uppercase;
     line-height: 1.5rem;
@@ -91,7 +91,7 @@ table.sheet-table td,
 div.sheet-tableHead > div,
 fieldset.sheet-tableHead > .sheet-fieldset > div,
 .sheet-tableBody > div {
-    border: 1px solid #c0ac8a;
+    border: 1px solid #000000;
 }
 
 div.sheet-table .sheet-tableBody:not(:first-child) > div {
@@ -109,7 +109,7 @@ div.sheet-tableHead > div,
 fieldset.sheet-tableHead > .sheet-fieldset > div{
     padding: 2px 5px;
     color: #fff;
-    background: #d8ccb7;
+    background: #2c3e45;
     text-transform: uppercase;
     text-align: center;
     font-weight: bold;
@@ -119,7 +119,7 @@ table.sheet-table tbody tr:nth-child(even),
 table.sheet-table tbody tr:nth-child(even) input,
 div.sheet-table .repitem:nth-child(even) .sheet-tableBody > div,
 div.sheet-table .repitem:nth-child(even) .sheet-tableBody input {
-    background: #f1ebe3;
+    background: #e2e6e9;
 } 
 
 /* Main canvas */
@@ -181,11 +181,11 @@ div.sheet-header textarea {
 /* Onglets */
 div.sheet-onglets {
     margin-top: 5px;
-    border-bottom: 3px solid #596971;
+    border-bottom: 3px solid #2c3e45;
 }
 
 div.sheet-onglets button {
-    border: 1px solid #596971;
+    border: 1px solid #2c3e45;
     background: #e2e6e9;
     color: #68747c;
     padding: 2px 5px;
@@ -207,7 +207,7 @@ div.sheet-onglets button:hover {
 .sheet-ongletActif[value="caracteristiques"] ~ div.sheet-onglets button[name="act_caracteristiques"],
 .sheet-ongletActif[value="competences"] ~ div.sheet-onglets button[name="act_competences"],
 .sheet-ongletActif[value="inventaire"] ~ div.sheet-onglets button[name="act_inventaire"] {
-	background: #596971;
+	background: #2c3e45;
 	color: #fff;
 }
 
@@ -517,14 +517,14 @@ table.sheet-weapons {
 .sheet-rolltemplate-competence .sheet-template-container {
     display: flex;
     flex-direction: column;
-    font-family: 'Cormorant Garamond';
+    font-family: 'Oswald';
     font-size: 1.15em;
     text-align: center;
 }
 
 .sheet-rolltemplate-competence .sheet-template-header {
-    border: 1px solid #c0ac8a;
-    background: #d8ccb7;
+    border: 1px solid #000000;
+    background: #2c3e45;
     color: #fff;
     font-weight: bold;
     padding: 1rem 0;
@@ -535,7 +535,7 @@ table.sheet-weapons {
 }
 
 .sheet-rolltemplate-competence .sheet-template-rolled {
-    border: 1px solid #c0ac8a;
+    border: 1px solid #000000;
     border-top: none;
     background: white;
     padding: 2rem 0;
@@ -543,7 +543,7 @@ table.sheet-weapons {
 }
 
 .sheet-rolltemplate-competence .sheet-template-result {
-    border: 1px solid #c0ac8a;
+    border: 1px solid #000000;
     border-top: none;
     background: #f1ebe3;
     color: #000;
