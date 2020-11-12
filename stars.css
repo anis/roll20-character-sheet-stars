@@ -429,7 +429,7 @@ table.sheet-weapons {
 }
 
 .sheet-competence-table {
-    width: 540px;
+    width: 580px;
 }
 
 .sheet-competence-table .sheet-tableBody {
@@ -446,14 +446,14 @@ table.sheet-weapons {
 }
 
 .sheet-competence-nom {
-    width: 150px;
+    width: 190px;
 }
 .sheet-tableBody .sheet-competence-nom {
-    width: 160px;
+    width: 200px;
     text-align: center;
 }
 .sheet-tableBody .sheet-competence-nom input {
-    width: 160px;
+    width: 200px;
 }
 .sheet-tableBody .sheet-competence-nom select {
     width: auto;
@@ -545,7 +545,7 @@ table.sheet-weapons {
 .sheet-rolltemplate-competence .sheet-template-result {
     border: 1px solid #000000;
     border-top: none;
-    background: #f1ebe3;
+    background: #e2e6e9;
     color: #000;
     padding: 1rem;
     font-weight: bold;
