@@ -244,6 +244,10 @@ div.sheet-sectionCol--divider {
     text-align: center;
 }
 
+div.sheet-sectionCol h1:not(:first-child) {
+    margin-top: 20px;
+}
+
 /**************** ONGLET CHAR ****************/
 /**** CHAR ****/
 .sheet-table--caracteristiques {
@@ -345,24 +349,59 @@ div.sheet-protectionBlock span {
     text-transform: uppercase;
 }
 
-div.sheet-magic {
-    margin-top: 10px;
-    padding-top: 10px;
+div.sheet-mindStats {
+    margin-top: 20px;
 }
 
-div.sheet-magic p {
+div.sheet-mindStats-inputs {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
-div.sheet-magic .sheet-input-label {
-    width: auto;
-    padding-right: 10px;
-    font-size: 1em;
+div.sheet-mindBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-div.sheet-magic input {
-    text-align: right;
+div.sheet-mindInput {
+    display: flex;
+    width: 120px;
+    height: 70px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+div.sheet-mindInput input {
+    background: none;
+    border: none;
+    text-align: center;
+    font-size: 3rem;
+    max-width: 70px;
+    width: 70px;
+    height: 70px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    border: 3px solid #000000;
+}
+
+div.sheet-mindBlock span {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+div.sheet-mindEffects {
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+div.sheet-mindEffects span {
+    font-weight: bold;
+    margin-right: 10px;
 }
 
 table.sheet-weapons {
